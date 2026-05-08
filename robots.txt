@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jko-yohan.github.io/timestamp-converter/sitemap.xml

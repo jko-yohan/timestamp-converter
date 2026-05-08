@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unix Timestamp Converter - Free Online Epoch Converter</title>
+    <meta name="description" content="Free online Unix timestamp converter. Convert between Unix timestamps and human-readable dates. See the current timestamp in real time.">
+    <meta name="keywords" content="unix timestamp converter, epoch converter, timestamp to date, date to timestamp, unix time">
+    <link rel="canonical" href="https://jko-yohan.github.io/timestamp-converter/">
+    <meta property="og:title" content="Unix Timestamp Converter - Free Online Epoch Converter">
+    <meta property="og:description" content="Convert between Unix timestamps and human-readable dates instantly.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jko-yohan.github.io/timestamp-converter/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4754582635962628" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Unix Timestamp Converter</h1>
+        <p class="subtitle">Convert between Unix timestamps and dates</p>
+    </header>
+    <main>
+        <div class="current-time">
+            <label>Current Unix Timestamp</label>
+            <div class="live-timestamp" id="live-ts"></div>
+            <div class="live-date" id="live-date"></div>
+        </div>
+
+        <div class="converter-grid">
+            <div class="converter-card">
+                <h2>Timestamp to Date</h2>
+                <div class="input-row">
+                    <input type="text" id="ts-input" placeholder="e.g. 1700000000">
+                    <button id="btn-to-date" class="btn btn-primary">Convert</button>
+                </div>
+                <div id="ts-result" class="result"></div>
+            </div>
+            <div class="converter-card">
+                <h2>Date to Timestamp</h2>
+                <div class="date-inputs">
+                    <input type="date" id="date-input">
+                    <input type="time" id="time-input" step="1">
+                </div>
+                <button id="btn-to-ts" class="btn btn-primary" style="width:100%;margin-top:0.5rem;">Convert</button>
+                <div id="date-result" class="result"></div>
+            </div>
+        </div>
+
+        <section class="info-section">
+            <h2>What is a Unix Timestamp?</h2>
+            <p>A Unix timestamp (also known as Epoch time or POSIX time) is the number of seconds that have elapsed since January 1, 1970, 00:00:00 UTC. This converter helps you translate between Unix timestamps and human-readable dates in both directions.</p>
+            <h2>Features</h2>
+            <ul>
+                <li>Live current Unix timestamp display</li>
+                <li>Convert timestamp to human-readable date</li>
+                <li>Convert date to Unix timestamp</li>
+                <li>Supports seconds and milliseconds</li>
+                <li>Shows UTC and local time</li>
+            </ul>
+        </section>
+
+        <div class="ad-placeholder">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-4754582635962628"
+                 data-ad-slot=""
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+    </main>
+    <footer>
+        <p>All processing runs locally in your browser. No data is sent to any server.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
